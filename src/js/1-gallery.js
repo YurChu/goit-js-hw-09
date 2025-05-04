@@ -85,7 +85,7 @@ const newItem = images
   .join('');
 gallery.insertAdjacentHTML('beforeend', newItem);
 // ----------------------------------------------------------
-const imgLight = new SimpleLightbox('.gallery a', {
+const imgLightBox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
